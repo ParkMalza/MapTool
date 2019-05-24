@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grass.xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Meshes file="grass.mesh">
+        <Cube CubePosX="0"/>
+    </Meshes>
+    <Height file="grass.height"/>
+    <Grass file="grass.grass"/>
+    <Tank file="grass.tank"/>
+    <Tower file="grass.tower"/>
+    <Light file="grass.light"/>
+</grass.xml>

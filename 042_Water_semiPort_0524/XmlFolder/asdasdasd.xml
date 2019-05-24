@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asdasdasd.xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Meshes file="asdasdasd.mesh">
+        <Cube CubePosX="0"/>
+    </Meshes>
+    <Height file="asdasdasd.height"/>
+    <Grass file="asdasdasd.grass"/>
+    <Tank file="asdasdasd.tank"/>
+    <Tower file="asdasdasd.tower"/>
+    <Light file="asdasdasd.light"/>
+</asdasdasd.xml>

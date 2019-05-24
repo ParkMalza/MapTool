@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Executes\Export.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimp\Type.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimp\Loader.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Executes\LoadModel.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Executes\Export.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+    <ClCompile Include="Assimp\Loader.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Executes\LoadModel.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Executes">
+      <UniqueIdentifier>{09ef1886-657e-4d0d-882e-be2583349cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp">
+      <UniqueIdentifier>{3e88d34d-63c6-48f8-8417-2f13bcfab481}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

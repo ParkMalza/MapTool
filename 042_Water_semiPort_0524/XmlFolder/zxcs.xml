@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zxcs.xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Meshes file="zxcs.mesh">
+        <Cube CubePosX="0"/>
+    </Meshes>
+    <Height file="zxcs.height"/>
+    <Grass file="zxcs.grass"/>
+    <Tank file="zxcs.tank"/>
+    <Tower file="zxcs.tower"/>
+    <Light file="zxcs.light"/>
+</zxcs.xml>

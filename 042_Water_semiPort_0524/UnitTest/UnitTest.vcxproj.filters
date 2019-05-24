@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Executes\Test.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\EnvDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\LightDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimp\Loader.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Assimp\Type.h">
+      <Filter>Assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Tank.h">
+      <Filter>Executes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Tower.h">
+      <Filter>Executes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRender\MeshRender.h">
+      <Filter>Executes\MeshRender</Filter>
+    </ClInclude>
+    <ClInclude Include="BillBoardsRender\BillBoardsRender.h">
+      <Filter>Executes\BillBoardsRender</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTerrain\BrushTerrain.h">
+      <Filter>Executes\EditTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTerrain\PaintTerrain.h">
+      <Filter>Executes\EditTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ModelManager.h">
+      <Filter>Executes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Executes\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumGroup.h">
+      <Filter>Executes</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\CommandManager.h">
+      <Filter>Executes\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\PostEffectDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget\RTVMinimap.h">
+      <Filter>Executes\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights\Lights.h">
+      <Filter>Executes\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\CubeMapDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Car.h">
+      <Filter>Executes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\ProjectorDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\ShadowDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Kachujin.h">
+      <Filter>Executes\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\WaterDemo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="BillBoardsRender\BillboardsInstancing.h">
+      <Filter>Executes\BillBoardsRender</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Executes\Test.cpp">
+      <Filter>Executes</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\EnvDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\LightDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Assimp\Loader.cpp">
+      <Filter>Assimp</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Tank.cpp">
+      <Filter>Executes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Tower.cpp">
+      <Filter>Executes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRender\MeshRender.cpp">
+      <Filter>Executes\MeshRender</Filter>
+    </ClCompile>
+    <ClCompile Include="BillBoardsRender\BillBoardsRender.cpp">
+      <Filter>Executes\BillBoardsRender</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTerrain\BrushTerrain.cpp">
+      <Filter>Executes\EditTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="EditTerrain\PaintTerrain.cpp">
+      <Filter>Executes\EditTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ModelManager.cpp">
+      <Filter>Executes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\Command.cpp">
+      <Filter>Executes\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\CommandManager.cpp">
+      <Filter>Executes\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\PostEffectDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget\RTVMinimap.cpp">
+      <Filter>Executes\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights\Lights.cpp">
+      <Filter>Executes\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\CubeMapDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Car.cpp">
+      <Filter>Executes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\ProjectorDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\ShadowDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Kachujin.cpp">
+      <Filter>Executes\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\WaterDemo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="BillBoardsRender\BillboardsInstancing.cpp">
+      <Filter>Executes\BillBoardsRender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Executes">
+      <UniqueIdentifier>{c09c4cd4-6768-4657-be37-78f8bbae383c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{9ad31fbc-717c-4ad8-957e-b54bf6c27fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assimp">
+      <UniqueIdentifier>{516dcb36-91a0-41e2-a175-532b55ecbaaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\Command">
+      <UniqueIdentifier>{18848b47-6e0a-45af-8e88-a4de3012ac6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\BillBoardsRender">
+      <UniqueIdentifier>{d54746e4-69ca-4eae-a636-af07d9c156e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\MeshRender">
+      <UniqueIdentifier>{93f81ea5-7d77-4656-9790-e74cacc8d3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\Models">
+      <UniqueIdentifier>{fc11f03f-c4c8-46a8-93d2-c4020a57df9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\EditTerrain">
+      <UniqueIdentifier>{08a0cf2c-a750-4b7e-8a9c-e118ecb5dc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\RenderTarget">
+      <UniqueIdentifier>{6958e1d9-3472-4159-928f-3455dfcc09f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Executes\Lights">
+      <UniqueIdentifier>{a08073f3-05bb-45d0-a224-1f1fc7a97554}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
